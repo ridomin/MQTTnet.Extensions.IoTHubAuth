@@ -6,7 +6,7 @@ Extensions to MQTTnet to connect to IoTHub
 
 To estabish a secure MQTT Connection to  Azure IoT Hub MQTT Broker you need to follow the authentication scheme, associated with the **api version** `2021-06-30-preview`. 
 
-> Note: Tat the time of writing only avaialble as a [private preview](https://github.com/Azure/IoTHubMQTTBrokerPreviewSamples#private-preview-program-information)
+> Note: At the time of writing, IoT Hub Broker feature is only avaialble as a [private preview](https://github.com/Azure/IoTHubMQTTBrokerPreviewSamples#private-preview-program-information)
 
 This project includes extension methods to the `IMqttClient` interface to connect with SasKeys or X509 certificates, for device and module identities.
 
