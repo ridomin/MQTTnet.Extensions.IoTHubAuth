@@ -6,6 +6,7 @@
     <TargetFramework>netstandard1.0</TargetFramework>
     <IsPackable>true</IsPackable>
     <Version>0.0.1</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Description>Extensions to MQTTnet to connect to IoTHub.</Description>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <ContentTargetFolders>contentFiles</ContentTargetFolders>
@@ -16,6 +17,8 @@
     <NoBuild>true</NoBuild>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
+    <RepositoryUrl>https://github.com/ridomin/MQTTnet.Extensions.IoTHubAuth</RepositoryUrl>
+    <Authors>ridomin</Authors>
   </PropertyGroup>
 
   <ItemGroup>
